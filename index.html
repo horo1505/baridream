@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Bari Dream - Bootstrap</title>
+</head>
+
+<body class="fontText d-flex flex-column min-vh-100">
+  <!-- Inizio nav -->
+  <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="ms-3" src="img/logo/logoPugliaRosso2.png" width="150px" height="50px"
+          alt="logo Bari Dream"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ms-auto me-3">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tradizioni.html">Tradizioni</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">Team</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Fine nav -->
+  <div class="container mb-5">
+  </div>
+  <div class="container mt-5">
+    <h6 class="text-danger fw-bold">Bari Dream, un progetto... da sogno!</h6>
+    <p class="fst-italic" style="font-size: 15px;">
+      Bari Dream è il nostro entusiasmante progetto dedicato a celebrare le
+      bellezze culturali e storiche della città
+      di Bari, una gemma dell'Italia meridionale. La nostra missione è quella di ispirare e guidare i visitatori in un
+      viaggio attraverso secoli di storia, tradizioni radicate e un patrimonio unico. Attraverso tour specializzati,
+      eventi culturali e un amore appassionato per questa città, ci impegniamo a far scoprire il cuore autentico di
+      Bari.
+    </p>
+  </div>
+
+
+  <div class="container-fluid mt-5">
+    <div class="row pb-3">
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <img src="img/carosello/lungomare-di-bari.webp" alt="Lungomare di Bari"
+          class="shadow-lg rounded d-block w-100 my-4">
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
+        <div class="row justify-content-center">
+          <h6 class="text-danger fw-bold text-center">Il Lungomare di Bari</h6>
+          <p>
+            Il Lungomare di Bari è un vero e proprio tesoro nascosto della città, una striscia di paradiso costiero che
+            offre una combinazione unica di storia, bellezze naturali e attività coinvolgenti per i visitatori.
+            Scopriamo
+            insieme questo affascinante tratto di Bari che si affaccia sull'Adriatico.
+          </p>
+
+          <!-- Bottone Modal -->
+          <button type="button" style="width:35%" class="btn coloreBottoni text-white" data-bs-toggle="modal"
+            data-bs-target="#modalLungomare">
+            Scopri di più
+          </button>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="modalLungomare">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title text-danger">Lungomare di Bari</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p>
+                <span class="fw-bold">Una Storia Ricca di Trasformazioni</span><br><br>
+
+                La storia del Lungomare è intrisa di cambiamenti e trasformazioni nel corso dei decenni.
+                Originariamente, l'area era un luogo di scarico di rifiuti e una zona industriale. Tuttavia, durante
+                il XX secolo, la città ha intrapreso una significativa opera di riqualificazione, trasformando questa
+                zona in una delle passeggiate costiere più affascinanti d'Italia. Oggi, il Lungomare è un luogo di
+                incontro per turisti e locali, un'oasi di tranquillità e un'affermazione del desiderio di Bari di
+                abbracciare il mare.<br><br>
+
+                <span class="fw-bold">Panorami Mozzafiato</span><br><br>
+
+                Una delle attrazioni principali del Lungomare è la vista spettacolare sull'Adriatico. Le onde che
+                lambiscono la costa e il cielo azzurro si fondono in una scena incantevole. Al tramonto, il Lungomare
+                offre una vista romantica che non ha eguali, con i riflessi dorati sull'acqua e il profilo di Bari
+                Vecchia all'orizzonte.<br><br>
+
+                <span class="fw-bold">Attività per Tutti i Gusti</span><br><br>
+
+                Il Lungomare offre una vasta gamma di attività per i visitatori di ogni età e interesse. Ecco alcune
+                opzioni:
+
+              <ul>
+                <li>Passeggiate Tranquille: Una passeggiata lungo il Lungomare è un'esperienza rilassante. Le panchine e
+                  le aree verdi lungo il percorso offrono luoghi ideali per riposarsi e ammirare il panorama.<br></li>
+
+                <li>Ciclismo e Pattinaggio: La pista ciclabile che si snoda lungo il Lungomare è perfetta per chi ama
+                  esplorare in bicicletta o pattinare. È un modo divertente per scoprire la zona.<br></li>
+
+                <li>Cucina Pugliese: Numerosi ristoranti e caffè si affacciano sul Lungomare, offrendo piatti della
+                  cucina
+                  pugliese con vista sul mare. È l'occasione perfetta per gustare le prelibatezze locali.<br></li>
+
+                <li>Eventi Culturali: Durante l'anno, il Lungomare ospita eventi culturali, concerti e spettacoli che
+                  animano l'atmosfera e offrono un'immersione nell'arte e nella cultura locali.<br></li>
+
+                <li>Escursioni in Mare: Per coloro che desiderano esplorare l'Adriatico, ci sono opzioni di escursioni
+                  in
+                  barca e sport acquatici come il windsurf.</li>
+              </ul>
+
+              <span class="fw-bold">Bari Dream ti Guida al Lungomare</span><br><br>
+
+              Bari Dream è qui per offrirti un'esperienza indimenticabile lungo il Lungomare di Bari. Siamo
+              appassionati della città e desideriamo condividere con te la bellezza di questo luogo incantevole.
+              Unisciti a noi per scoprire il fascino storico, la cucina autentica e la vibrante cultura di Bari
+              lungo il Lungomare, un luogo dove il passato si fonde con il presente in un'armonia di bellezza
+              costiera.
+              </p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Chiudi</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div> <!-- Fine prima foto -->
+    <!-- **************************************************************************************** -->
+    <div class="row pt-3 pb-3 bg-light">
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
+        <div class="row justify-content-center">
+          <h6 class="text-danger fw-bold text-center">Il Teatro Margherita</h6>
+          <p>
+            Il Teatro Margherita è noto per la sua programmazione eclettica e di alta qualità. Offre una varietà di
+            spettacoli, dal teatro classico alle performance contemporanee. Gli artisti locali e internazionali trovano
+            una piattaforma per esprimere la loro creatività, regalando al pubblico momenti indimenticabili.
+          </p>
+
+          <!-- Bottone Modal -->
+          <button type="button" style="width:35%" class="btn coloreBottoni text-white" data-bs-toggle="modal"
+            data-bs-target="#modalMargherita">
+            Scopri di più
+          </button>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="modalMargherita">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title text-danger">Teatro Margherita</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p>
+                <span class="fw-bold">Un'Eccellenza Architettonica</span><br><br>
+
+                Il Teatro Margherita è stato inaugurato nel 1914 ed è stato progettato dall'architetto Ettore Petrolini
+                in stile Liberty. La sua facciata ornata e le decorazioni interne ne fanno una delle opere
+                architettoniche più affascinanti di Bari. È stato concepito come un teatro all'aperto, con una cupola in
+                vetro che permetteva di godere degli spettacoli sotto le stelle.<br><br>
+
+                <span class="fw-bold">Una Storia di Trasformazioni</span><br><br>
+
+                Durante la sua lunga storia, il Teatro Margherita ha subito numerose trasformazioni. Dopo un periodo di
+                abbandono, è stato restaurato e riaperto al pubblico. Oggi è un luogo versatile che ospita spettacoli
+                teatrali, concerti, mostre d'arte e eventi culturali, creando un ponte tra la tradizione e
+                l'innovazione.<br><br>
+
+                <span class="fw-bold">Spettacoli di Qualità</span><br><br>
+
+                Il Teatro Margherita è noto per la sua programmazione eclettica e di alta qualità. Offre una varietà di
+                spettacoli, dal teatro classico alle performance contemporanee. Gli artisti locali e internazionali
+                trovano una piattaforma per esprimere la loro creatività, regalando al pubblico momenti
+                indimenticabili.<br><br>
+
+                <span class="fw-bold">Esperienze Indimenticabili</span><br><br>
+
+
+                Il Teatro Margherita è il luogo perfetto per un'esperienza culturale indimenticabile. Ecco alcune
+                attività da non perdere:
+              <ul>
+                <li>Spettacoli Teatrali: Goditi rappresentazioni teatrali di altissima qualità, da commedie classiche a
+                  produzioni innovative.</li>
+
+                <li>Concerti: Ascolta musicisti locali e internazionali esibirsi in un'ampia gamma di generi musicali.
+                </li>
+
+                <li>Mostre d'Arte: Ammira opere d'arte contemporanea e tradizionale in mostre che cambiano regolarmente.
+                </li>
+
+                <li>Eventi Culturali: Partecipa a eventi culturali, seminari e dibattiti che esplorano la ricchezza
+                  della
+                  cultura locale e globale.<br></li>
+              </ul>
+
+              <span class="fw-bold">Bari Dream ti Guida al Teatro Margherita</span><br><br>
+
+              Bari Dream è qui per condividere con te l'arte, la cultura e la bellezza del Teatro Margherita. Unisciti
+              a noi per esplorare questo luogo unico e per scoprire il meglio della scena culturale di Bari. Il Teatro
+              Margherita è un punto di incontro tra passato e presente, un luogo dove l'arte e lo spettacolo si
+              fondono per offrire un'esperienza unica.
+              </p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Chiudi</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <img src="img/carosello/teatro-margherita-bari-primavera.webp" alt="Teatro Margherita"
+          class="shadow-lg rounded d-block w-100 my-4">
+      </div>
+    </div> <!-- Fine seconda foto -->
+    <!-- **************************************************************************************** -->
+    <div class="row pb-3 pt-3">
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <img src="img/carosello/bari-vecchia-piazza-mercantile-ferrarese.jpg" alt="Piazza Ferrarese e Piazza Mercantile"
+          class="shadow-lg rounded d-block w-100 my-4">
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
+        <div class="row justify-content-center">
+          <h6 class="text-danger fw-bold text-center">Piazza Ferrarese e Piazza Mercantile</h6>
+          <p>
+            Le Piazze Ferrarese e Mercantile di Bari sono una coppia di gioielli nascosti all'interno del cuore pulsante
+            della città. Questi spazi pubblici sono un tributo alla storia, alla cultura e al gusto pugliese, creando
+            un'esperienza indimenticabile per i visitatori. Esploriamo insieme la bellezza e le opportunità che queste
+            piazze offrono.
+          </p>
+
+          <!-- Bottone Modal -->
+          <button type="button" style="width:35%" class="btn coloreBottoni text-white" data-bs-toggle="modal"
+            data-bs-target="#modalPiazze">
+            Scopri di più
+          </button>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="modalPiazze">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title text-danger">Piazza Ferrarese e Piazza Mercantile</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p>
+                <span class="fw-bold">Storia e Tradizione</span><br><br>
+
+                Le Piazze Ferrarese e Mercantile sono testimoni della ricca storia commerciale di Bari. La Piazza
+                Ferrarese, con il suo nome che richiama la famiglia Ferrara, è stata per secoli un importante centro di
+                scambi e commercio. La Piazza Mercantile, a pochi passi di distanza, ha svolto un ruolo simile, fungendo
+                da cuore pulsante per l'attività economica.<br><br>
+
+                <span class="fw-bold">Atmosfera e Bellezze</span><br><br>
+
+                Le piazze sono circondate da edifici storici dai colori vivaci e con facciate affrescate, che creano uno
+                sfondo affascinante. Le stradine strette e tortuose che si diramano dalle piazze sono piene di negozi,
+                ristoranti e caffè, invitando i visitatori a esplorare i segreti di Bari Vecchia.<br><br>
+
+                <span class="fw-bold">Cucina Autentica e Delizie Locali</span><br><br>
+
+                Le piazze sono il luogo ideale per assaporare la cucina pugliese autentica. I ristoranti e i chioschi
+                offrono piatti tipici, come le celebri orecchiette, preparate con maestria. E non dimentichiamoci delle
+                focacce, dei panzerotti e dei gelati artigianali che delizieranno il tuo palato.<br><br>
+
+                <span class="fw-bold">Attività Coinvolgenti</span><br><br>
+
+                Ci sono molte attività coinvolgenti da godere nelle Piazze Ferrarese e Mercantile:
+
+              <ul>
+                <li>Shopping: Esplora boutique uniche e negozi tradizionali che offrono prodotti locali, artigianato e
+                  souvenir.</li>
+
+                <li>Arte e Cultura: Ammira le opere d'arte che abbelliscono le piazze e partecipa a eventi culturali e
+                  mostre d'arte.</li>
+
+                <li>Passeggiate Tranquille: Cammina tra le piazze e le strade adiacenti per immergerti nell'atmosfera
+                  autentica di Bari Vecchia.</li>
+
+                <li>Vita Notturna: Le piazze si trasformano di notte, offrendo una vivace vita notturna con bar e locali
+                  che
+                  servono cocktail e musica dal vivo.</li>
+              </ul>
+
+              <span class="fw-bold">Bari Dream ti Accompagna nelle Piazze</span><br><br>
+
+              Bari Dream è qui per rendere la tua esperienza nelle Piazze Ferrarese e Mercantile indimenticabile.
+              Unisciti a noi per scoprire il fascino storico, la cucina autentica e l'atmosfera coinvolgente di queste
+              piazze. Siamo appassionati della città e vogliamo condividere con te tutto ciò che queste piazze hanno
+              da offrire. Le Piazze Ferrarese e Mercantile sono il cuore pulsante di Bari Vecchia, un luogo dove la
+              storia si fonde con la modernità in un'armonia di gusti autentici e tradizione.
+              </p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Chiudi</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div> <!-- Fine terza foto -->
+    <!-- **************************************************************************************** -->
+    <div class="row pt-3 pb-3 bg-light">
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
+        <div class="row justify-content-center">
+          <h6 class="text-danger fw-bold text-center">Castello Normanno-Svevo</h6>
+          <p>
+            Il Castello Normanno-Svevo di Bari è un'icona di maestosità medievale, un simbolo di forza e storia che si
+            erge nel cuore della città. Questa imponente fortezza racconta storie millenarie e nasconde tesori nascosti
+            tra le sue mura. Scopriamo insieme la bellezza e l'importanza di questo castello unico.
+          </p>
+
+          <!-- Bottone Modal -->
+          <button type="button" style="width:35%" class="btn coloreBottoni text-white" data-bs-toggle="modal"
+            data-bs-target="#modalCastello">
+            Scopri di più
+          </button>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="modalCastello">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title text-danger">Castello Normanno-Svevo</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p>
+                <span class="fw-bold">Un'Eccellenza Architettonica</span><br><br>
+
+                La storia del Castello Normanno-Svevo inizia nel XII secolo, quando fu costruito dai Normanni. La sua
+                architettura imponente combina elementi normanni, svevi e gotici, creando un'opera maestosa che sfida il
+                tempo. Le mura massicce, le torri e le fortificazioni ne fanno un esempio impressionante di architettura
+                militare medievale.<br><br>
+
+                <span class="fw-bold">Una Storia Ricca di Episodi</span><br><br>
+
+                Il castello ha conosciuto una storia ricca di eventi, passando di mano tra i Normanni, i Svevi, gli
+                Angioini e gli Aragonesi nel corso dei secoli. È stato testimone di intrighi politici, battaglie e
+                trasformazioni. Oggi, le sue mura raccontano la storia di Bari e dell'intera regione.<br><br>
+
+                <span class="fw-bold">Tesori Nascosti e Mostre Culturali</span><br><br>
+
+                All'interno delle mura del castello, i visitatori possono esplorare mostre culturali che mostrano
+                manufatti e opere d'arte legate alla storia di Bari. Ci sono spazi dedicati all'arte contemporanea, ai
+                reperti storici e alle esposizioni tematiche. Il castello è un luogo di scoperta e
+                apprendimento.<br><br>
+
+                <span class="fw-bold">Attività Coinvolgenti</span><br><br>
+
+                Il Castello Normanno-Svevo offre molte attività coinvolgenti per i visitatori:
+              <ul>
+                <li>Tour Guidati: Partecipa a tour guidati che ti condurranno attraverso le stanze del castello,
+                  svelando la
+                  sua storia e i suoi segreti.</li>
+
+                <li>Eventi Culturali: Il castello ospita eventi culturali, spettacoli teatrali e concerti che portano il
+                  passato alla vita.</li>
+
+                <li>Panorami mozzafiato: Salendo sulle torri del castello, godrai di panorami spettacolari sulla città e
+                  sul
+                  mare circostante.</li>
+              </ul>
+
+              <span class="fw-bold">Bari Dream ti Conduce nel Castello</span><br><br>
+
+              Bari Dream è qui per farti scoprire il Castello Normanno-Svevo di Bari in tutta la sua grandiosità
+              storica e culturale. Unisciti a noi per esplorare le mura di questa fortezza millenaria e per immergerti
+              nelle storie che racconta. Il Castello Normanno-Svevo è un luogo dove il passato prende vita e offre una
+              prospettiva affascinante sulla storia di Bari e della Puglia.<br><br>
+              </p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Chiudi</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <img src="img/carosello/bari-piazza-federico-ii-svevia.webp" alt="Castello Normanno-Svevo"
+          class="shadow-lg rounded d-block w-100 my-4">
+      </div>
+    </div> <!-- Fine quarta foto -->
+    <!-- **************************************************************************************** -->
+    <div class="row pb-3 pt-3">
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <img src="img/carosello/bari-piazza-san-nicola.webp" alt="Basilica di San Nicola"
+          class="shadow-lg rounded d-block w-100 my-4">
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
+        <div class="row justify-content-center">
+          <h6 class="text-danger fw-bold text-center">Basilica di San Nicola</h6>
+          <p>
+            La Basilica di San Nicola a Bari è un'opera maestosa di architettura romanica e un luogo di profonda
+            spiritualità. Questo santuario è una delle principali attrazioni della città e un luogo di
+            pellegrinaggio per fedeli da tutto il mondo. Esploriamo insieme la bellezza e la significativa storia
+            della Basilica di San Nicola.
+          </p>
+
+          <!-- Bottone Modal -->
+          <button type="button" style="width:35%" class="btn coloreBottoni text-white" data-bs-toggle="modal"
+            data-bs-target="#modalBasilica">
+            Scopri di più
+          </button>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="modalBasilica">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title text-danger">Basilica di San Nicola</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p>
+                <span class="fw-bold">Architettura e Storia</span><br><br>
+
+                La Basilica di San Nicola è stata costruita tra il 1087 e il 1197 ed è un capolavoro dell'architettura
+                romanica. Le sue facciate ornate, gli archi gotici e gli affreschi medievali la rendono un tesoro
+                artistico e storico. La basilica è dedicata a San Nicola, il patrono di Bari, ed è costruita sul sito in
+                cui le sue reliquie sono state portate dalla città di Myra, in Turchia.<br><br>
+
+                <span class="fw-bold">Reliquie Sacre e Spiritualità</span><br><br>
+
+                Il santuario è il custode delle reliquie di San Nicola, tra cui le sue spoglie. Queste reliquie sono
+                considerate sacre e hanno reso la basilica un luogo di pellegrinaggio per i fedeli cattolici. San Nicola
+                è venerato come un santo miracoloso e il suo culto ha radici profonde nella tradizione
+                cristiana.<br><br>
+
+                <span class="fw-bold">Mostre Culturali e Tesori Artistici</span><br><br>
+
+                All'interno della basilica, i visitatori possono esplorare mostre culturali che mostrano manufatti sacri
+                e opere d'arte legate alla storia di San Nicola e al culto che lo circonda. Le cappelle e gli altari
+                all'interno della basilica sono decorati con affreschi, mosaici e sculture che narrano la storia del
+                santo.<br><br>
+
+                <span class="fw-bold">Attività Spirituali ed Esperienze Uniche</span><br><br>
+
+                La Basilica di San Nicola offre molte attività per i visitatori:
+
+              <ul>
+                <li>Pellegrinaggi: Partecipa a pellegrinaggi organizzati per onorare San Nicola e scoprire la sua
+                  storia.</li>
+
+                <li>Momenti di Riflessione: La basilica è un luogo ideale per la meditazione e la preghiera, con
+                  un'atmosfera di serenità.</li>
+
+                <li>Eventi Religiosi: Durante l'anno, la basilica ospita eventi religiosi e celebrazioni che coinvolgono
+                  la comunità locale.</li>
+              </ul>
+
+              <span class="fw-bold">Bari Dream ti Accompagna alla Basilica di San Nicola</span><br><br>
+
+              Bari Dream è qui per condividere con te l'arte, la spiritualità e la bellezza della Basilica di San
+              Nicola. Unisciti a noi per esplorare questo luogo sacro e per scoprire il significato profondo che ha
+              nella storia di Bari e nelle vite dei fedeli. La Basilica di San Nicola è un santuario di fede e
+              cultura, un luogo dove la spiritualità si fonde con la storia in un'armonia di devozione e bellezza.
+              </p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Chiudi</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div> <!-- Fine quinta foto -->
+    <!-- **************************************************************************************** -->
+    <div class="row pt-3 pb-3 bg-light">
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
+        <div class="row justify-content-center">
+          <h6 class="text-danger fw-bold text-center">Via Sparano</h6>
+          <p>
+            Via Sparano di Bari è una delle strade più prestigiose e vivaci della città, un'arteria dello shopping e
+            dell'arte di vivere. Questa strada pedonale offre una combinazione unica di negozi di moda, ristoranti
+            eleganti e un'atmosfera urbana vibrante. Esploriamo insieme la bellezza e le possibilità che Via Sparano ha
+            da offrire.
+          </p>
+
+          <!-- Bottone Modal -->
+          <button type="button" style="width:35%" class="btn coloreBottoni text-white" data-bs-toggle="modal"
+            data-bs-target="#modalViaSparano">
+            Scopri di più
+          </button>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="modalViaSparano">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title text-danger">Via Sparano</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p>
+                <span class="fw-bold">Shopping di Classe e Eleganza</span><br><br>
+
+                Via Sparano è conosciuta per essere il centro dello shopping di alta moda a Bari. Boutique di lusso,
+                negozi di abbigliamento e gioiellerie si allineano lungo la strada, offrendo una vasta gamma di marchi
+                italiani ed internazionali. È il luogo ideale per acquistare capi d'abbigliamento, scarpe, borse e
+                accessori di alta qualità.<br><br>
+
+                <span class="fw-bold">Architettura e Design Urbano</span><br><br>
+
+                La strada è abbellita da edifici storici con facciate eleganti e vetrine ben curate. L'architettura
+                raffinata e il design urbano rendono Via Sparano una destinazione attraente non solo per lo shopping, ma
+                anche per la semplice passeggiata e l'osservazione delle vetrine.<br><br>
+
+                <span class="fw-bold">Ristoranti e Caffè Affascinanti</span><br><br>
+
+                La strada offre anche una serie di ristoranti, caffè e locali affascinanti. Qui puoi gustare
+                prelibatezze pugliesi e internazionali, oltre a una vasta selezione di vini e cocktail. È il luogo
+                ideale per una pausa durante lo shopping o per una serata fuori.<br><br>
+
+                <span class="fw-bold">Eventi Culturali e Animazione</span><br><br>
+
+                Via Sparano è anche il luogo in cui spesso si svolgono eventi culturali e intrattenimento dal vivo.
+                Durante l'anno, la strada ospita mostre d'arte, spettacoli teatrali e manifestazioni culturali che
+                animano l'atmosfera.<br><br>
+
+                <span class="fw-bold">Attività Coinvolgenti</span><br><br>
+
+                Ci sono molte attività coinvolgenti da godere lungo Via Sparano:
+              <ul>
+                <li>Shopping Esclusivo: Esplora le boutique e trova il capo o l'accessorio perfetto per il tuo
+                  guardaroba.</li>
+
+                <li>Gastronomia: Assaggia le prelibatezze pugliesi in uno dei ristoranti o caffè sulla strada.</li>
+
+                <li>Eventi e Mostre: Partecipa a eventi culturali e mostre d'arte che offrono una prospettiva unica
+                  sulla
+                  scena culturale di Bari.</li>
+              </ul>
+
+              <span class="fw-bold">Bari Dream ti Guida in Via Sparano</span><br><br>
+
+              Bari Dream è qui per condividere con te l'arte, la moda e l'eleganza di Via Sparano. Unisciti a noi
+              per
+              esplorare questa via prestigiosa e per scoprire il meglio dello shopping e della vita urbana di Bari.
+              Via Sparano è il luogo dove lo stile si fonde con l'animazione urbana in un'armonia di moda e cultura.
+              </p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Chiudi</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <img src="img/carosello/bari-via-sparano-vittorio-emanuele.webp" alt="Via Sparano"
+          class="shadow-lg rounded d-block w-100 my-4">
+      </div>
+    </div> <!-- Fine sesta foto -->
+  </div>
+  </div>
+  <div class="container-fluid bg-light mt-auto">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 border-top">
+      <p class="col-md-4 mb-0 text-muted">© BariDream</p>
+
+      <a href="#"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <img src="img/logo/logo-abb.png" alt="Logo Bari Dream" width="100px" height="33px">
+      </a>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a href="https://instagram.com/claudio.schingaro" target="_blank">
+            <svg fill="#212529bf" width="24px" height="24px" viewBox="0 0 32 32" version="1.1" xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g>
+                <path
+                  d="M22.3,8.4c-0.8,0-1.4,0.6-1.4,1.4c0,0.8,0.6,1.4,1.4,1.4c0.8,0,1.4-0.6,1.4-1.4C23.7,9,23.1,8.4,22.3,8.4z" />
+                <path
+                  d="M16,10.2c-3.3,0-5.9,2.7-5.9,5.9s2.7,5.9,5.9,5.9s5.9-2.7,5.9-5.9S19.3,10.2,16,10.2z M16,19.9c-2.1,0-3.8-1.7-3.8-3.8   c0-2.1,1.7-3.8,3.8-3.8c2.1,0,3.8,1.7,3.8,3.8C19.8,18.2,18.1,19.9,16,19.9z" />
+                <path
+                  d="M20.8,4h-9.5C7.2,4,4,7.2,4,11.2v9.5c0,4,3.2,7.2,7.2,7.2h9.5c4,0,7.2-3.2,7.2-7.2v-9.5C28,7.2,24.8,4,20.8,4z M25.7,20.8   c0,2.7-2.2,5-5,5h-9.5c-2.7,0-5-2.2-5-5v-9.5c0-2.7,2.2-5,5-5h9.5c2.7,0,5,2.2,5,5V20.8z" />
+              </g>
+            </svg>
+          </a></li>
+        <li class="ms-3"><a href="mailto:claudio.schingaro@marconibari.edu.it"><svg width="26px" height="26px"
+              viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" fill="none">
+              <path stroke="#212529bf" stroke-linejoin="round" stroke-width="12"
+                d="M22 57.265V142c0 5.523 4.477 10 10 10h24V95.056l40 30.278 40-30.278V152h24c5.523 0 10-4.477 10-10V57.265c0-13.233-15.15-20.746-25.684-12.736L96 81.265 47.684 44.53C37.15 36.519 22 44.032 22 57.265Z" />
+            </svg></a></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+
+
+
+</html>
